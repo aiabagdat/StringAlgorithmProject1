@@ -32,16 +32,14 @@ The time complexity is efficient as it reduces the problem from O(n * m) (in the
 
    ```bash
    javac src/KMP.java
+
 Run the program:
 After compiling, run the program with the following command:
-
 java -cp src KMP
 This will execute the program and search for the specified pattern in the text. The output will be saved in the output.txt file.
 View the output:
 You can open the output.txt file to check the results of the program, which will show the index of the pattern found in the text.
-
 Example output in output.txt:
-
 Pattern found at index 10
 Example Test Cases
 Test case 1 (test_case1.txt): Short string
